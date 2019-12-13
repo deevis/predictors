@@ -1,0 +1,142 @@
+[
+  [
+    {
+      "team": "Lions",
+      "points": "22"
+    },
+    {
+      "team": "Packers",
+      "points": "23"
+    }
+  ],
+  [
+    {
+      "team": "Panthers",
+      "points": "37"
+    },
+    {
+      "team": "Buccaneers",
+      "points": "26"
+    }
+  ],
+  [
+    {
+      "team": "Eagles",
+      "points": "20"
+    },
+    {
+      "team": "Vikings",
+      "points": "38"
+    }
+  ],
+  [
+    {
+      "team": "Texans",
+      "points": "31"
+    },
+    {
+      "team": "Chiefs",
+      "points": "24"
+    }
+  ],
+  [
+    {
+      "team": "Redskins",
+      "points": "17"
+    },
+    {
+      "team": "Dolphins",
+      "points": "16"
+    }
+  ],
+  [
+    {
+      "team": "Saints",
+      "points": "13"
+    },
+    {
+      "team": "Jaguars",
+      "points": "6"
+    }
+  ],
+  [
+    {
+      "team": "Bengals",
+      "points": "17"
+    },
+    {
+      "team": "Ravens",
+      "points": "23"
+    }
+  ],
+  [
+    {
+      "team": "Seahawks",
+      "points": "32"
+    },
+    {
+      "team": "Browns",
+      "points": "28"
+    }
+  ],
+  [
+    {
+      "team": "49ers",
+      "points": "20"
+    },
+    {
+      "team": "Rams",
+      "points": "7"
+    }
+  ],
+  [
+    {
+      "team": "Falcons",
+      "points": "33"
+    },
+    {
+      "team": "Cardinals",
+      "points": "34"
+    }
+  ],
+  [
+    {
+      "team": "Titans",
+      "points": "0"
+    },
+    {
+      "team": "Broncos",
+      "points": "16"
+    }
+  ],
+  [
+    {
+      "team": "Cowboys",
+      "points": "22"
+    },
+    {
+      "team": "Jets",
+      "points": "24"
+    }
+  ],
+  [
+    {
+      "team": "Steelers",
+      "points": "24"
+    },
+    {
+      "team": "Chargers",
+      "points": "17"
+    }
+  ],
+  [
+    {
+      "team": "Giants",
+      "points": "14"
+    },
+    {
+      "team": "Patriots",
+      "points": "35"
+    }
+  ]
+]

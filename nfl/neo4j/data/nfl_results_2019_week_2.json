@@ -1,0 +1,162 @@
+[
+  [
+    {
+      "team": "Browns",
+      "points": "23"
+    },
+    {
+      "team": "Jets",
+      "points": "3"
+    }
+  ],
+  [
+    {
+      "team": "Cardinals",
+      "points": "17"
+    },
+    {
+      "team": "Ravens",
+      "points": "23"
+    }
+  ],
+  [
+    {
+      "team": "Seahawks",
+      "points": "28"
+    },
+    {
+      "team": "Steelers",
+      "points": "26"
+    }
+  ],
+  [
+    {
+      "team": "Colts",
+      "points": "19"
+    },
+    {
+      "team": "Titans",
+      "points": "17"
+    }
+  ],
+  [
+    {
+      "team": "Cowboys",
+      "points": "31"
+    },
+    {
+      "team": "Redskins",
+      "points": "21"
+    }
+  ],
+  [
+    {
+      "team": "Patriots",
+      "points": "43"
+    },
+    {
+      "team": "Dolphins",
+      "points": "0"
+    }
+  ],
+  [
+    {
+      "team": "Bills",
+      "points": "28"
+    },
+    {
+      "team": "Giants",
+      "points": "14"
+    }
+  ],
+  [
+    {
+      "team": "Jaguars",
+      "points": "12"
+    },
+    {
+      "team": "Texans",
+      "points": "13"
+    }
+  ],
+  [
+    {
+      "team": "Chargers",
+      "points": "10"
+    },
+    {
+      "team": "Lions",
+      "points": "13"
+    }
+  ],
+  [
+    {
+      "team": "49ers",
+      "points": "41"
+    },
+    {
+      "team": "Bengals",
+      "points": "17"
+    }
+  ],
+  [
+    {
+      "team": "Vikings",
+      "points": "16"
+    },
+    {
+      "team": "Packers",
+      "points": "21"
+    }
+  ],
+  [
+    {
+      "team": "Chiefs",
+      "points": "28"
+    },
+    {
+      "team": "Raiders",
+      "points": "10"
+    }
+  ],
+  [
+    {
+      "team": "Saints",
+      "points": "9"
+    },
+    {
+      "team": "Rams",
+      "points": "27"
+    }
+  ],
+  [
+    {
+      "team": "Bears",
+      "points": "16"
+    },
+    {
+      "team": "Broncos",
+      "points": "14"
+    }
+  ],
+  [
+    {
+      "team": "Eagles",
+      "points": "20"
+    },
+    {
+      "team": "Falcons",
+      "points": "24"
+    }
+  ],
+  [
+    {
+      "team": "Buccaneers",
+      "points": "20"
+    },
+    {
+      "team": "Panthers",
+      "points": "14"
+    }
+  ]
+]

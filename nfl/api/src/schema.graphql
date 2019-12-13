@@ -1,0 +1,12 @@
+type Team {
+    label: String
+    logo: String
+    power_rating: Float
+    pagerank: Float
+    opp_pagerank: Float
+    vp_avg: Float 
+    wins: Int 
+    losses: Int 
+    ties: Int
+    margins: [Int]
+}
