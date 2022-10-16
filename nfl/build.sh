@@ -1,7 +1,10 @@
 #!/bin/bash
-PREDICTION_SEASON=2019
+docker-compose down
+docker image rm nfl_neo4j
+
+PREDICTION_SEASON=2022
 cd ruby
-ruby cbs_sports_nfl_scraper.rb $PREDICTION_SEASON 
+ruby nfl_com_scraper.rb $PREDICTION_SEASON 
 PREDICTION_WEEKS=$?
 echo -e "Got $PREDICTION_WEEKS weeks of data"
 cd ..
@@ -14,4 +17,3 @@ export PREDICTION_SEASON
 export PREDICTION_WEEKS
 
 docker-compose up 
-#--build-arg PREDICTION_SEASON=$PREDICTION_SEASON --build-arg PREDICTION_WEEKS=$PREDICTION_WEEKS

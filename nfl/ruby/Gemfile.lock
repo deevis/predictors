@@ -1,0 +1,36 @@
+GEM
+  specs:
+    activesupport (7.0.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    awesome_print (1.9.2)
+    colored2 (3.1.2)
+    concurrent-ruby (1.1.10)
+    ethon (0.15.0)
+      ffi (>= 1.15.0)
+    ffi (1.15.5)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
+    minitest (5.16.1)
+    nokogiri (1.13.6-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.6.0)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  awesome_print
+  colored2
+  nokogiri
+  typhoeus
+
+BUNDLED WITH
+   2.1.4

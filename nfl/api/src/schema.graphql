@@ -1,6 +1,7 @@
 type Team {
     label: String
     logo: String
+    slug: String
     power_rating: Float
     pagerank: Float
     opp_pagerank: Float

@@ -20,7 +20,7 @@ with team.label as team, team.pagerank as pagerank,
 	[n in collect(distinct(_win)) | n.win_score - n.lose_score] as winning_margins,
 	[n in collect(distinct(_loss)) | n.lose_score - n.win_score] as losing_margins,
     avg(opp.pagerank) as opp_pagerank
-where (wins + losses) > 3
+where (wins + losses + ties) > 1
 with team, pagerank, opp_pagerank, 
 round(1000 * toFloat((points + crushes - (2 * trainwrecks))/toFloat(wins+losses)))/1000 as vp_avg,
 points, wins, losses, ties, crushes, trainwrecks, (winning_margins + losing_margins) as margins

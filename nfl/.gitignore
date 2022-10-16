@@ -1,2 +1,3 @@
 /data
-
+/api/node_modules
+/ui/predictors/node_modules

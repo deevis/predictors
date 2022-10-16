@@ -27,8 +27,8 @@ class CbsSportsNcaaFootballScraper < Scraper
     games_array = games.map do |game|
       puts "+" * 50
       result = game.css(".in-progress-table table tbody tr").map do |team_result| 
-        team = team_result.css("td.team a.team").text 
-        points = team_result.css("td.total-score").text
+        team = team_result.css("td.team a").last.text 
+        points = team_result.css("td").last.text
         {team: team.squish, points: points}
       end
       puts result
