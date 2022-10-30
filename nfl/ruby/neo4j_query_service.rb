@@ -63,7 +63,7 @@ class Neo4jQueryService
       neo4j_stats = run_cql(
         "call dbms.components() yield name, versions, edition unwind versions
           as version return name, version, edition;", result_data_contents: 'row')
-      apoc_version = run_cql("return apoc.version()", result_data_contents: 'row')
+      apoc_version = run_cql("return apoc.version()", result_data_contents: 'row') rescue "N/A"
       gds_version = run_cql("return gds.version()", result_data_contents: 'row') rescue "N/A"
       algo_version = run_cql("return algo.version()", result_data_contents: 'row') rescue "N/A"
       puts "NEO4J Stats: #{neo4j_stats}".cyan
@@ -105,8 +105,31 @@ class Neo4jQueryService
       end
     end
   
-    def self.run_file(filepath)
-        cql = File.open(filepath).readlines
+    def self.ensure_projection(projection_name)
+      remove_projection = <<~CQL
+        CALL gds.graph.drop('#{projection_name}', false) YIELD graphName
+      CQL
+
+      create_projection = <<~CQL
+        CALL gds.graph.project('#{projection_name}','Team','EARNED_POINT')
+        YIELD graphName AS graph, nodeProjection, nodeCount AS nodes, relationshipProjection, relationshipCount AS rels
+      CQL
+
+      run_cql(remove_projection)
+      run_cql(create_projection)
+    end
+
+    def self.run_file(filepath, template_params={})
+        # puts "Running file: #{filepath}"
+        cql = File.readlines(filepath)
+        template_params.each do |param_name, param_value|
+          replace_this = "__#{param_name}__"
+          # puts "Replacing #{replace_this} with #{param_value}"
+          cql = cql.map do |line|
+            puts "#{line.class}: #{line}"
+            line.gsub(replace_this, param_value.to_s)
+          end
+        end
         puts "-" * 60
         puts "RUNNING CQL".cyan
         puts "-" * 60

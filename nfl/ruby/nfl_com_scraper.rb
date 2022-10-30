@@ -84,5 +84,6 @@ last_week_loaded = 0
   break if scraper.games_from_url(x+1) == 0
   last_week_loaded = x + 1 
 end
+`cp #{scraper.out_file_dir}/* ../neo4j/data`
 exit(last_week_loaded)
 

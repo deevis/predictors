@@ -1,0 +1,610 @@
+---
+:week: 8
+:year: 2022
+:predictions:
+- :winner: Jaguars
+  :homeTeam: Jaguars
+  :homeStats:
+    team: Jaguars
+    power_rating: 2.051
+    pagerank: 0.292
+    opp_pagerank: 0.587
+    vp_avg: 1.0
+    points: 4
+    wins: 2
+    losses: 5
+    ties: 0
+    crushes: 3
+    trainwrecks: 0
+    margins:
+    - 28
+    - 24
+    - -8
+    - -7
+    - -6
+    - -7
+    - -6
+  :awayTeam: Broncos
+  :awayStats:
+    team: Broncos
+    power_rating: 0.945
+    pagerank: 0.215
+    opp_pagerank: 0.362
+    vp_avg: 0.571
+    points: 4
+    wins: 2
+    losses: 5
+    ties: 0
+    crushes: 0
+    trainwrecks: 0
+    margins:
+    - 1
+    - 7
+    - -3
+    - -3
+    - -9
+    - -7
+    - -1
+  :power_margin: 1.1060000000000003
+- :winner: Falcons
+  :homeTeam: Falcons
+  :homeStats:
+    team: Falcons
+    power_rating: 1.374
+    pagerank: 0.31
+    opp_pagerank: 0.468
+    vp_avg: 0.714
+    points: 6
+    wins: 3
+    losses: 4
+    ties: 0
+    crushes: 1
+    trainwrecks: 1
+    margins:
+    - 3
+    - 4
+    - 14
+    - -6
+    - -1
+    - -18
+    - -4
+  :awayTeam: Panthers
+  :awayStats:
+    team: Panthers
+    power_rating: 0.266
+    pagerank: 0.296
+    opp_pagerank: 0.435
+    vp_avg: 0.143
+    points: 4
+    wins: 2
+    losses: 5
+    ties: 0
+    crushes: 1
+    trainwrecks: 2
+    margins:
+    - 8
+    - 18
+    - -10
+    - -14
+    - -2
+    - -22
+    - -3
+  :power_margin: 1.108
+- :winner: Cowboys
+  :homeTeam: Cowboys
+  :homeStats:
+    team: Cowboys
+    power_rating: 5.81
+    pagerank: 1.359
+    opp_pagerank: 0.723
+    vp_avg: 1.429
+    points: 10
+    wins: 5
+    losses: 2
+    ties: 0
+    crushes: 2
+    trainwrecks: 1
+    margins:
+    - 12
+    - 18
+    - 3
+    - 7
+    - 15
+    - -9
+    - -16
+  :awayTeam: Bears
+  :awayStats:
+    team: Bears
+    power_rating: 1.317
+    pagerank: 0.278
+    opp_pagerank: 0.444
+    vp_avg: 0.714
+    points: 6
+    wins: 3
+    losses: 4
+    ties: 0
+    crushes: 1
+    trainwrecks: 1
+    margins:
+    - 19
+    - 3
+    - 9
+    - -7
+    - -8
+    - -17
+    - -5
+  :power_margin: 4.492999999999999
+- :winner: Dolphins
+  :homeTeam: Lions
+  :homeStats:
+    team: Lions
+    power_rating: -1.377
+    pagerank: 0.167
+    opp_pagerank: 0.769
+    vp_avg: -0.667
+    points: 2
+    wins: 1
+    losses: 5
+    ties: 0
+    crushes: 0
+    trainwrecks: 3
+    margins:
+    - 9
+    - -3
+    - -3
+    - -4
+    - -18
+    - -29
+  :awayTeam: Dolphins
+  :awayStats:
+    team: Dolphins
+    power_rating: 3.794
+    pagerank: 1.482
+    opp_pagerank: 0.784
+    vp_avg: 0.857
+    points: 8
+    wins: 4
+    losses: 3
+    ties: 0
+    crushes: 0
+    trainwrecks: 1
+    margins:
+    - 4
+    - 2
+    - 6
+    - 13
+    - -8
+    - -23
+    - -12
+  :power_margin: 5.171
+- :winner: Vikings
+  :homeTeam: Vikings
+  :homeStats:
+    team: Vikings
+    power_rating: 4.495
+    pagerank: 0.768
+    opp_pagerank: 0.695
+    vp_avg: 1.5
+    points: 10
+    wins: 5
+    losses: 1
+    ties: 0
+    crushes: 1
+    trainwrecks: 1
+    margins:
+    - 3
+    - 7
+    - 4
+    - 8
+    - 16
+    - -17
+  :awayTeam: Cardinals
+  :awayStats:
+    team: Cardinals
+    power_rating: 1.055
+    pagerank: 0.241
+    opp_pagerank: 0.489
+    vp_avg: 0.571
+    points: 6
+    wins: 3
+    losses: 4
+    ties: 0
+    crushes: 0
+    trainwrecks: 1
+    margins:
+    - 6
+    - 10
+    - 8
+    - -23
+    - -3
+    - -10
+    - -8
+  :power_margin: 3.4400000000000004
+- :winner: Raiders
+  :homeTeam: Saints
+  :homeStats:
+    team: Saints
+    power_rating: 1.108
+    pagerank: 0.261
+    opp_pagerank: 0.539
+    vp_avg: 0.571
+    points: 4
+    wins: 2
+    losses: 5
+    ties: 0
+    crushes: 0
+    trainwrecks: 0
+    margins:
+    - 7
+    - 1
+    - -10
+    - -8
+    - -3
+    - -8
+    - -4
+  :awayTeam: Raiders
+  :awayStats:
+    team: Raiders
+    power_rating: 1.288
+    pagerank: 0.181
+    opp_pagerank: 0.31
+    vp_avg: 0.833
+    points: 4
+    wins: 2
+    losses: 4
+    ties: 0
+    crushes: 1
+    trainwrecks: 0
+    margins:
+    - 9
+    - 18
+    - -2
+    - -6
+    - -1
+    - -5
+  :power_margin: 0.17999999999999994
+- :winner: Jets
+  :homeTeam: Jets
+  :homeStats:
+    team: Jets
+    power_rating: 3.536
+    pagerank: 0.813
+    opp_pagerank: 0.706
+    vp_avg: 1.143
+    points: 10
+    wins: 5
+    losses: 2
+    ties: 0
+    crushes: 2
+    trainwrecks: 2
+    margins:
+    - 17
+    - 1
+    - 4
+    - 7
+    - 23
+    - -15
+    - -15
+  :awayTeam: Patriots
+  :awayStats:
+    team: Patriots
+    power_rating: 2.031
+    pagerank: 0.276
+    opp_pagerank: 0.592
+    vp_avg: 1.0
+    points: 6
+    wins: 3
+    losses: 4
+    ties: 0
+    crushes: 3
+    trainwrecks: 1
+    margins:
+    - 29
+    - 23
+    - 3
+    - -3
+    - -19
+    - -11
+    - -13
+  :power_margin: 1.505
+- :winner: Eagles
+  :homeTeam: Eagles
+  :homeStats:
+    team: Eagles
+    power_rating: 9.253
+    pagerank: 1.607
+    opp_pagerank: 0.521
+    vp_avg: 2.333
+    points: 12
+    wins: 6
+    losses: 0
+    ties: 0
+    crushes: 2
+    trainwrecks: 0
+    margins:
+    - 3
+    - 8
+    - 16
+    - 3
+    - 17
+    - 9
+  :awayTeam: Steelers
+  :awayStats:
+    team: Steelers
+    power_rating: 0.0
+    pagerank: 0.557
+    opp_pagerank: 0.813
+    vp_avg: 0.0
+    points: 4
+    wins: 2
+    losses: 5
+    ties: 0
+    crushes: 0
+    trainwrecks: 2
+    margins:
+    - 3
+    - 2
+    - -12
+    - -4
+    - -35
+    - -6
+    - -3
+  :power_margin: 9.253
+- :winner: Titans
+  :homeTeam: Texans
+  :homeStats:
+    team: Texans
+    power_rating: 0.301
+    pagerank: 0.209
+    opp_pagerank: 0.246
+    vp_avg: 0.2
+    points: 3
+    wins: 1
+    losses: 4
+    ties: 1
+    crushes: 0
+    trainwrecks: 1
+    margins:
+    - 7
+    - -7
+    - -10
+    - -3
+    - -18
+  :awayTeam: Titans
+  :awayStats:
+    team: Titans
+    power_rating: 1.468
+    pagerank: 0.432
+    opp_pagerank: 0.537
+    vp_avg: 0.667
+    points: 8
+    wins: 4
+    losses: 2
+    ties: 0
+    crushes: 0
+    trainwrecks: 2
+    margins:
+    - 2
+    - 4
+    - 9
+    - 7
+    - -1
+    - -34
+  :power_margin: 1.167
+- :winner: Colts
+  :homeTeam: Colts
+  :homeStats:
+    team: Colts
+    power_rating: 1.627
+    pagerank: 0.436
+    opp_pagerank: 0.36
+    vp_avg: 0.833
+    points: 7
+    wins: 3
+    losses: 3
+    ties: 1
+    crushes: 0
+    trainwrecks: 1
+    margins:
+    - 3
+    - 3
+    - 7
+    - -9
+    - -7
+    - -24
+  :awayTeam: Commanders
+  :awayStats:
+    team: Commanders
+    power_rating: 0.611
+    pagerank: 0.299
+    opp_pagerank: 0.644
+    vp_avg: 0.286
+    points: 6
+    wins: 3
+    losses: 4
+    ties: 0
+    crushes: 0
+    trainwrecks: 2
+    margins:
+    - 2
+    - 5
+    - 6
+    - -4
+    - -16
+    - -15
+    - -9
+  :power_margin: 1.016
+- :winner: 49ers
+  :homeTeam: Rams
+  :homeStats:
+    team: Rams
+    power_rating: 1.016
+    pagerank: 0.277
+    opp_pagerank: 0.591
+    vp_avg: 0.5
+    points: 6
+    wins: 3
+    losses: 3
+    ties: 0
+    crushes: 1
+    trainwrecks: 2
+    margins:
+    - 14
+    - 8
+    - 4
+    - -12
+    - -15
+    - -21
+  :awayTeam: 49ers
+  :awayStats:
+    team: 49ers
+    power_rating: 1.243
+    pagerank: 0.327
+    opp_pagerank: 0.311
+    vp_avg: 0.714
+    points: 6
+    wins: 3
+    losses: 4
+    ties: 0
+    crushes: 3
+    trainwrecks: 2
+    margins:
+    - 15
+    - 20
+    - 22
+    - -1
+    - -21
+    - -14
+    - -9
+  :power_margin: 0.2270000000000001
+- :winner: Giants
+  :homeTeam: Seahawks
+  :homeStats:
+    team: Seahawks
+    power_rating: 1.636
+    pagerank: 0.303
+    opp_pagerank: 0.256
+    vp_avg: 1.0
+    points: 8
+    wins: 4
+    losses: 3
+    ties: 0
+    crushes: 1
+    trainwrecks: 1
+    margins:
+    - 14
+    - 3
+    - 10
+    - 1
+    - -4
+    - -7
+    - -20
+  :awayTeam: Giants
+  :awayStats:
+    team: Giants
+    power_rating: 5.028
+    pagerank: 0.856
+    opp_pagerank: 0.58
+    vp_avg: 1.714
+    points: 12
+    wins: 6
+    losses: 1
+    ties: 0
+    crushes: 0
+    trainwrecks: 0
+    margins:
+    - 1
+    - 4
+    - 5
+    - 8
+    - 6
+    - 3
+    - -7
+  :power_margin: 3.3919999999999995
+- :winner: Bills
+  :homeTeam: Bills
+  :homeStats:
+    team: Bills
+    power_rating: 8.613
+    pagerank: 1.011
+    opp_pagerank: 0.713
+    vp_avg: 2.5
+    points: 10
+    wins: 5
+    losses: 1
+    ties: 0
+    crushes: 5
+    trainwrecks: 0
+    margins:
+    - 34
+    - 3
+    - 35
+    - 4
+    - 21
+    - -2
+  :awayTeam: Packers
+  :awayStats:
+    team: Packers
+    power_rating: 0.936
+    pagerank: 0.374
+    opp_pagerank: 0.588
+    vp_avg: 0.429
+    points: 6
+    wins: 3
+    losses: 4
+    ties: 0
+    crushes: 1
+    trainwrecks: 2
+    margins:
+    - 2
+    - 3
+    - 17
+    - -17
+    - -5
+    - -2
+    - -16
+  :power_margin: 7.677
+- :winner: Bengals
+  :homeTeam: Browns
+  :homeStats:
+    team: Browns
+    power_rating: 0.54
+    pagerank: 0.254
+    opp_pagerank: 0.507
+    vp_avg: 0.286
+    points: 4
+    wins: 2
+    losses: 5
+    ties: 0
+    crushes: 0
+    trainwrecks: 1
+    margins:
+    - 12
+    - 2
+    - -3
+    - -1
+    - -3
+    - -2
+    - -23
+  :awayTeam: Bengals
+  :awayStats:
+    team: Bengals
+    power_rating: 5.303
+    pagerank: 1.027
+    opp_pagerank: 0.831
+    vp_avg: 1.429
+    points: 8
+    wins: 4
+    losses: 3
+    ties: 0
+    crushes: 2
+    trainwrecks: 0
+    margins:
+    - 15
+    - 4
+    - 12
+    - 18
+    - -3
+    - -3
+    - -2
+  :power_margin: 4.763
