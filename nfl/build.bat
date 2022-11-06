@@ -1,7 +1,5 @@
 docker-compose down
-docker image rm nfl_neo4j
-
-
+docker image rm predictor-neo4j
 
 set PREDICTION_SEASON=2022
 :: cd ruby
@@ -13,7 +11,7 @@ set PREDICTION_SEASON=2022
 :: echo "Got %PREDICTION_WEEKS% weeks of data"
 :: cd ..
 :: Move data into neo4j context so it can get deployed with the container 
-del neo4j\data\* 
+del /Q neo4j\data\* 
 :: mkdir neo4j\data
 copy .\data\nfl\%PREDICTION_SEASON%\* neo4j\data
 
@@ -27,7 +25,7 @@ copy .\data\premier_league\%PREDICTION_SEASON%\* neo4j\data
 
 :: export PREDICTION_SEASON 
 :: export PREDICTION_WEEKS
-
+docker-compose build
 docker-compose up 
 ::--build-arg PREDICTION_SEASON=$PREDICTION_SEASON --build-arg PREDICTION_WEEKS=$PREDICTION_WEEKS
 

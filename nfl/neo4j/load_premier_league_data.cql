@@ -1,7 +1,7 @@
-with range(0,2) as pages
+with range(0,__total_pages__) as pages
 unwind pages as page
 with page, 
-"file:////var/lib/neo4j/import/results_2022_page_page_number.json" as base_url 
+"file://///var/lib/neo4j/import/results_2022_page_page_number.json" as base_url 
 with replace(base_url, "page_number", toString(page)) as url 
 CALL apoc.load.json(url) YIELD value
 

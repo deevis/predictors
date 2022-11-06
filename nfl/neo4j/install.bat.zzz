@@ -1,0 +1,16 @@
+: not currently used cuz doesn't fucking work
+docker run --name neo4j ^
+    --env=NEO4J_AUTH=none ^
+    -p 7474:7474 -p 7687:7687 ^
+    --env='NEO4JLABS_PLUGINS=[\"apoc\",\"graph-data-science\"]' ^
+    --env=NEO4J_dbms_memory_heap_initial__size=1G ^
+    --env=NEO4J_dbms_memory_heap_max__size=2G ^
+    --env=NEO4J_dbms_allow__upgrade=true ^
+    -v /c/Users/Darren/projects/github/predictors/nfl/data:/import ^
+    --env=NEO4J_apoc_export_file_enabled=true ^
+    --env=NEO4J_apoc_import_file_enabled=true ^
+    --env=NEO4J_apoc_import_file_use__neo4j__config=true ^
+    --env='NEO4J_dbms_security_procedures_unrestricted=apoc.\\\*,algo.\\\*,gds.\\\*' ^
+    --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=yes ^
+     neo4j:4.0
+

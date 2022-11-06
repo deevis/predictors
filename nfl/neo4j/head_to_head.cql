@@ -19,15 +19,15 @@ o2t1, o2t2
 
 
 // The points earned by each team from the HeadToHead opponents view
-match(t1:Team {label: "Xavier"})
-match(t2:Team {label: "Providence"})
+match(t1:Team {label: "Patriots"})
+match(t2:Team {label: "Chiefs"})
 optional match(t1)-[t11_wins:DEFEATED]->(:Team)-[t12_wins:DEFEATED]->(t2) 
 optional match(t2)-[t21_wins:DEFEATED]->(:Team)-[t22_wins:DEFEATED]->(t1) 
 optional match(t1)-[t1_both_wins:DEFEATED]->(:Team)<-[t2_both_wins:DEFEATED]-(t2) 
 optional match(t1)<-[t1_both_lost:DEFEATED]->(:Team)-[t2_both_lost:DEFEATED]->(t2) 
 return t1.label, t1.pagerank,
-length(collect(distinct(t11_wins))) as score1, 
+size(collect(distinct(t11_wins))) as score1, 
 t2.label, t2.pagerank,
-length(collect(distinct(t21_wins))) as score2,
-length(collect(distinct(t1_both_wins))) as both_won,
-length(collect(distinct(t1_both_lost))) as both_lost
+size(collect(distinct(t21_wins))) as score2,
+size(collect(distinct(t1_both_wins))) as both_won,
+size(collect(distinct(t1_both_lost))) as both_lost

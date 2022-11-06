@@ -1,7 +1,7 @@
-with range(1,4) as week_numbers
+with range(1,__week_number__) as week_numbers
 unwind week_numbers as week_number
 with week_number, 
-"file:////var/lib/neo4j/import/nfl_com_results_2022_week_week_number.json" as base_url 
+"file://///var/lib/neo4j/import/nfl_com_results_2022_week_week_number.json" as base_url 
 with replace(base_url, "week_number", toString(week_number)) as url 
 CALL apoc.load.json(url) YIELD value
 unwind value.games as game

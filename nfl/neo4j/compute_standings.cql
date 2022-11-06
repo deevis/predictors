@@ -11,12 +11,12 @@ optional match (team)-[_ties:TIED]->(:Team)
 optional match (team)-[_trainwrecks:CRUSHED_BY]->(:Team)
 optional match (team)<-[_crushes:CRUSHED_BY]-(:Team)
 with team.label as team, team.pagerank as pagerank, 
-    length(collect(distinct(_point))) as points,
-    length(collect(distinct(_crushes))) as crushes,
-    length(collect(distinct(_trainwrecks))) as trainwrecks,
-	length(collect(distinct(_win))) as wins, 
-    length(collect(distinct(_loss))) as losses,
-    length(collect(distinct(_ties))) as ties,
+    size(collect(distinct(_point))) as points,
+    size(collect(distinct(_crushes))) as crushes,
+    size(collect(distinct(_trainwrecks))) as trainwrecks,
+	size(collect(distinct(_win))) as wins, 
+    size(collect(distinct(_loss))) as losses,
+    size(collect(distinct(_ties))) as ties,
 	[n in collect(distinct(_win)) | n.win_score - n.lose_score] as winning_margins,
 	[n in collect(distinct(_loss)) | n.lose_score - n.win_score] as losing_margins,
     avg(opp.pagerank) as opp_pagerank
